@@ -1,0 +1,30 @@
+@import './../../styles/common.scss';
+
+.footer {
+    z-index: 1;
+    background-color: white;
+    
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1.5rem 0;
+    }
+
+    &__line {
+        width: 100%;
+        background-color: $border;
+        height: 2px;
+    }
+
+    &__company {
+        cursor: pointer;
+
+        height: 1.5rem;
+        width: auto;
+    }
+
+    &__version {
+        color: $text-2;
+    }
+}

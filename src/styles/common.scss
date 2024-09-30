@@ -1,0 +1,105 @@
+
+$main: #106bbf;
+$background: #f2f2f2;
+$background-2: #f4f4f5;
+
+$green: #10bf19;
+$yellow: #bfb910;
+
+$text: #09090b;
+$text-2: #71717a;
+
+$border: #e4e4e7;
+$shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+body {
+    margin: 0;
+    font-family: "Inter", system-ui;
+
+    background-color: $background;
+}
+
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.title-2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.title-3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.title-4 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.section {
+    margin: 1rem 0;
+}
+
+.form {
+    display: flex;
+    margin-top: 5px;
+
+    align-items: center;
+}
+
+.key {
+    flex-basis: 20rem;
+    color: $text-2;
+    font-size: 1.1rem;
+}
+
+.value {
+    color: $text;
+    font-size: 1.1rem;
+
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        margin-left: 1rem;
+        fill: $text-2;
+        height: 1.1rem;
+        width: auto;
+    
+        cursor: pointer;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #323232;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}

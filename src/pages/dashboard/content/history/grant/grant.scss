@@ -1,0 +1,87 @@
+@import './../../../../../styles/common.scss';
+
+.grant {
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    &__item {
+        padding: 1rem;
+
+        border-width: 0.1rem;
+        border-radius: 1rem;
+        border-color: $border;
+        border-style: solid;
+
+        &__subtitle {
+            margin-top: 1rem;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__status {
+        
+            padding: 0.3rem 1rem;
+            border-radius: 1rem;
+
+            color: white;
+            background-color: $green !important;
+        }
+
+        &__line {
+            background-color: $border;
+            width: 100%;
+            height: 0.1rem;
+            margin: 1rem 0;
+        }
+
+        &__form {
+            margin: 0.5rem 0;
+            display: flex;
+            justify-content: space-between;
+
+            &__key {
+                color: $text-2
+            }
+
+            &__value {
+                color: $text;
+            }
+        }
+
+        &__universities {
+            &__title {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1rem;
+            }
+            &__table {
+                display: flex;
+                flex-wrap: nowrap;
+
+                & * {
+                    flex-grow: 1;
+                    flex-basis: 3rem;
+                    color: $text-2;
+                }
+            }
+        }
+
+        &__university {
+            display: flex;
+            flex-wrap: nowrap;
+
+            margin: 0.5rem 0;
+
+            & * {
+                flex-grow: 1;
+                flex-basis: 3rem;
+            }
+        }
+
+    }
+}

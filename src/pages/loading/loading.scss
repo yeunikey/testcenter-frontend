@@ -1,0 +1,30 @@
+.loading {
+    flex-grow: 1;
+    
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15rem;
+    }
+
+    &__logo {
+        width: 10rem;
+        height: auto;
+
+        animation-name: rotate;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}

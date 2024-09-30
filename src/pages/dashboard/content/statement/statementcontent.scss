@@ -1,0 +1,14 @@
+@import './../../../../styles/common.scss';
+
+.statementcontent {
+
+    &__alert {
+        margin: 1rem 0 2rem 0;
+    }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

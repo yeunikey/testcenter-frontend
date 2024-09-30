@@ -1,0 +1,11 @@
+@import './../../styles/common.scss';
+
+.button {
+    background-color: $main;
+    color: white;
+    padding: 0.8rem 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}

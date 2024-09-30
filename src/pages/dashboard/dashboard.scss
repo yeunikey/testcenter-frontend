@@ -1,0 +1,14 @@
+@import './../../styles/common.scss';
+
+.dashboard {
+
+    flex-grow: 1;
+    z-index: 1;
+
+    background-color: white;
+    border-start-end-radius: 3rem;
+    border-start-start-radius: 3rem;
+    
+    box-shadow: $shadow;
+
+}

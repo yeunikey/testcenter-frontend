@@ -1,0 +1,88 @@
+@import './../../styles/common.scss';
+
+.header {
+
+    background-color: white;
+    box-shadow: $shadow;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 1rem;
+    }
+
+    &__company {
+        display: flex;
+        align-items: center;
+
+        cursor: pointer;
+
+        &__logo {
+            height: 2rem;
+            width: auto;
+        }
+
+        &__name {
+            color: $text;
+
+            margin-left: 1.25rem;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+
+        cursor: pointer;
+        position: relative;
+
+        &__name {
+            margin-right: 1.25rem;
+
+            font-size: 1rem;
+            font-weight: 500;
+            
+            color: $text;
+        }
+
+        &__logo {
+            border-radius: 50%;
+
+            height: 2rem;
+
+            outline: auto;
+            outline-style: solid;
+            outline-color: $border;
+            outline-width: 0.1rem;
+            outline-offset: 3px;
+        }
+
+    }
+
+}
+
+.dropdown {
+    position: absolute;
+
+    background-color: white;
+    padding: 1rem;
+
+    border-color: $border;
+    box-shadow: $shadow;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+
+    top: 3rem;
+    right: 0;
+    z-index: 2;
+
+    &__title {
+        margin-bottom: 1rem;
+    }
+
+}

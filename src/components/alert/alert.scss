@@ -1,0 +1,31 @@
+@import './../../styles/common.scss';
+
+.alert {
+
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: $border;
+    border-radius: 1rem;
+
+    &__content {
+        display: flex;
+        padding: 1rem 2rem;
+        align-items: center;
+    }
+
+    &__icon {
+        fill: $main;
+        min-height: 3rem;
+        max-height: 3rem;
+        min-width: 3rem;
+        max-width: 3rem;
+    }
+
+    &__text {
+        margin-left: 2rem;
+        color: $text;
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+
+}
